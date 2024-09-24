@@ -44,7 +44,7 @@ div, h1, p {
     align-items: center;
 }
 
-ul {
+.header ul {
     display: flex;
     list-style: none;
     justify-content: space-between;
@@ -67,4 +67,44 @@ button {
     color:#E5E7EB;
     border: none;
     padding: 4px 16px;
+}
+
+.info-container {
+    background-color: 1F2937;
+    padding: 128px
+
+}
+
+.info-container h1 {
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+}
+
+.info-container ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.info-container ul li {
+    margin: 32px;
+    text-align: center;
+    text-wrap: wrap;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 128px;
+    text-align: center;
+    font-size: 38px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+}
+
+.name {
+    font-weight: bolder;
+    text-align: right;
+    font-size: smaller;
 }
